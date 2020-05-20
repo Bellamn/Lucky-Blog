@@ -5,7 +5,11 @@
   "main": "lib/index.css",
   "scripts": {
     "dev": "gulp build && gulp watch",
-    "build": "gulp build"
+    "build": "gulp build",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.3"
   },
   "keywords": [
     "vv-ui",
@@ -17,7 +21,9 @@
     "gulp": "^3.9.1",
     "gulp-cssmin": "^0.1.7",
     "gulp-postcss": "^6.1.1",
-    "postcss-salad": "^1.0.5"
+    "postcss-salad": "^1.0.5",
+    "gulp-sass": "^3.1.0",
+    "gulp-autoprefixer": "^4.0.0"
   },
   "dependencies": {}
 }

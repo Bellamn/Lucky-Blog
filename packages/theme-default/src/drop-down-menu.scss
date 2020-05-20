@@ -1,0 +1,63 @@
+@import "mixins/mixins.scss";
+
+@include b(menu){
+    width: 100px;
+    position: relative;
+
+    &:hover {
+        @include e(title-icon){
+        margin-left: 4px;
+        border-left:5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid black;
+        border-bottom: 0 solid transparent;
+        }
+
+        @include e(more){
+            display: block;
+        }
+    }
+    @include e(title){
+        width: 100%;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+    }
+    @include e(title-icon){
+        margin-left:4px;
+        height: 0;
+        width:0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid black;
+    }
+    @include e(title-words){
+        font-size: 15px;
+        color:green;
+    }
+    @include e(more){
+        width: 100px;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        z-index: 1;
+    }
+    @include e(wrap){
+        display: flex;
+        align-items: center;
+        &:hover{
+            border-right: 2px solid red;
+        }
+    }
+
+    @include e(more-icon){
+        margin-left:4px;
+
+    }
+    @include e(more-link){
+        margin-left: 4px;
+        text-decoration:none;
+    }
+
+}
+

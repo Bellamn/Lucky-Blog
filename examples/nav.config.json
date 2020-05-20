@@ -88,6 +88,17 @@
           "path": "/skeleton"
         }
       ]
+    },
+    {
+      "desc": "自定义组件",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "menu 菜单样式",
+          "name": "menu",
+          "path": "/menu-js"
+        }
+      ]
     }
   ]
 }

@@ -6,6 +6,7 @@ import router from './router'
 import demoBlock from './components/demo-block.vue'
 import VVUI from '../packages/index'
 import '../packages/theme-default/lib/index.css'
+import '../packages/theme-default/lib/index-s.css'
 
 Vue.component('demo-block', demoBlock)
 Vue.use(VVUI)

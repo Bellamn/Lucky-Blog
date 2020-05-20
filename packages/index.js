@@ -2,7 +2,7 @@
  * @author monkeywang
  * Date: 17/11/9
  */
-import WButton from './button/index.js';
+import WButton from './button/index.js'
 import WRow from './row/index'
 import WCol from './col/index'
 import WTag from './tag/index'
@@ -12,6 +12,7 @@ import MetaInfo from './meta-info/index'
 import WAlert from './alert/index'
 import WLoadingBar from './loading-bar/index'
 import Skeleton from './skeleton/index'
+import Dmenu from './menu-js/index'
 
 const components = [
   WButton,
@@ -21,10 +22,11 @@ const components = [
   WShowMore,
   WLimitTextArea,
   WAlert,
-  Skeleton
+  Skeleton,
+  Dmenu
 ]
 
-const install = function(Vue) {
+const install = function (Vue) {
   if (install.installed) return
   components.map(component => Vue.component(component.name, component))
   MetaInfo.install(Vue)
@@ -46,5 +48,6 @@ export default {
   MetaInfo,
   WAlert,
   WLoadingBar,
-  Skeleton
+  Skeleton,
+  Dmenu
 }
