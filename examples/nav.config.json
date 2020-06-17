@@ -108,6 +108,11 @@
           "desc": "css 技巧",
           "name": "css-calc",
           "path": "/css-calc"
+        },
+        {
+          "desc": "品字布局",
+          "name": "css-float",
+          "path": "/css-float"
         }
       ]
     }
