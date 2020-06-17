@@ -99,6 +99,17 @@
           "path": "/menu-js"
         }
       ]
+    },
+    {
+      "desc": "css技巧",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "css 技巧",
+          "name": "css-calc",
+          "path": "/css-calc"
+        }
+      ]
     }
   ]
 }
