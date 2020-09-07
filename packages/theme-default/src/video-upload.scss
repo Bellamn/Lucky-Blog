@@ -1,0 +1,25 @@
+@import "mixins/mixins.scss";
+@include b(video){
+    width: auto;
+    @include e(mobile){
+        width: auto;
+    }
+    @include e(pc){
+        width: auto;
+    }
+    @include e(title){
+        font-size: large;
+        padding: 10px;
+    }
+    @include e(play){
+        width: 48vmax;
+        height: 27vmax;
+        margin: 5px auto;
+        background-color: gray;
+        display: block;
+    }
+    @include e(mbfile){
+        margin: 5px auto;
+        display: block;
+    }
+}

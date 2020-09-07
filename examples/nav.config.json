@@ -97,6 +97,11 @@
           "desc": "menu 菜单样式",
           "name": "menu",
           "path": "/menu-js"
+        },
+        {
+          "desc": "拍摄上传视频",
+          "name": "video-upload",
+          "path": "/video-upload"
         }
       ]
     },
@@ -105,7 +110,7 @@
       "path": "/component",
       "items": [
         {
-          "desc": "css 技巧",
+          "desc": "固定宽高比",
           "name": "css-calc",
           "path": "/css-calc"
         },
@@ -113,6 +118,11 @@
           "desc": "品字布局",
           "name": "css-float",
           "path": "/css-float"
+        },
+        {
+          "desc": "圣杯布局",
+          "name": "css-grail-layout",
+          "path": "/css-grail-layout"
         }
       ]
     }
