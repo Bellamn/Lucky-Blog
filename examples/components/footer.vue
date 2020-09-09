@@ -32,13 +32,8 @@
       <w-row type="flex" justify="space-between">
         <w-col :span="12" class="text-left">
           <a href="https://monkeywangs.github.io/">
-            <img src="../assets/img/avater.png" width="80">
+            <img src="../assets/img/avater.png" width="60">
           </a>
-          <div>
-            <p>author: monkeyWang</p>
-            <p>email: 2424880409@qq.com </p>
-            <p>github: <a href="https://github.com/monkeyWangs">https://github.com/monkeyWangs</a></p>
-          </div>
         </w-col>
         <w-col :span="12" class="text-right">
           <a href="https://github.com/VV-UI/VV-UI">

@@ -14,6 +14,7 @@ import WLoadingBar from './loading-bar/index'
 import Skeleton from './skeleton/index'
 import Dmenu from './menu-js/index'
 import Video_upload from './video-upload/index'
+import Dswipper from './swipper/index'
 
 const components = [
   WButton,
@@ -25,7 +26,8 @@ const components = [
   WAlert,
   Skeleton,
   Dmenu,
-  Video_upload
+  Video_upload,
+  Dswipper
 ]
 
 const install = function (Vue) {
@@ -52,5 +54,6 @@ export default {
   WLoadingBar,
   Skeleton,
   Dmenu,
-  Video_upload
+  Video_upload,
+  Dswipper
 }

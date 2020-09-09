@@ -102,6 +102,16 @@
           "desc": "拍摄上传视频",
           "name": "video-upload",
           "path": "/video-upload"
+        },
+        {
+          "desc": "轮播组件",
+          "name": "swipper",
+          "path": "/swipper"
+        },
+        {
+          "desc": "日历组件",
+          "name": "calender",
+          "path": "/calender"
         }
       ]
     },

@@ -1,0 +1,27 @@
+@import "mixins/mixins.scss";
+
+@include b(swipper){
+    position: relative;
+    width: 300px;
+    /* 下面是为了让大家看的更清楚，加的修饰 */
+    padding: 30px 0;
+    margin: 0 auto;
+    background: #FFB973;
+    height: 300px;
+    overflow: hidden;
+    @include e(container){
+        position: relative;
+        width: 10000%;
+        display: flex;
+        left: -300px;
+        @include m(move){
+            transition: left 0.8s ease-in-out;
+        }
+    }
+    @include e(pic){
+        width: 1%;
+        height: 300px;
+        -webkit-user-drag: none;
+
+    }
+}
