@@ -15,6 +15,8 @@ import Skeleton from './skeleton/index'
 import Dmenu from './menu-js/index'
 import Video_upload from './video-upload/index'
 import Dswipper from './swipper/index'
+import Dcalendar from './calendar/index.js'
+
 
 const components = [
   WButton,
@@ -27,7 +29,8 @@ const components = [
   Skeleton,
   Dmenu,
   Video_upload,
-  Dswipper
+  Dswipper,
+  Dcalendar
 ]
 
 const install = function (Vue) {
@@ -55,5 +58,6 @@ export default {
   Skeleton,
   Dmenu,
   Video_upload,
-  Dswipper
+  Dswipper,
+  Dcalendar
 }
